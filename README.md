@@ -1,2 +1,2 @@
 # FishPortCalculator-Console
-A fishport calculator
+A fishport calculator for my Mom :D
