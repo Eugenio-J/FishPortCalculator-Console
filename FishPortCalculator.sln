@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishPortCalculator", "FishPortCalculator\FishPortCalculator.csproj", "{BB80BE7F-49CC-4396-A9C3-FC88B88611A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB80BE7F-49CC-4396-A9C3-FC88B88611A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB80BE7F-49CC-4396-A9C3-FC88B88611A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB80BE7F-49CC-4396-A9C3-FC88B88611A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB80BE7F-49CC-4396-A9C3-FC88B88611A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D566300D-5E53-4ABB-8854-B24E3C49A080}
+	EndGlobalSection
+EndGlobal
