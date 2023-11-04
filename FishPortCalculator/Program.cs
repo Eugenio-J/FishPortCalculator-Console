@@ -1,13 +1,12 @@
-﻿using System;
+﻿using FishPortCalculator;
+using System;
 using System.Collections.Generic;
 using System.Text;
-
 class Program
 {
     static void Main()
     {
         List<Purchase> purchases = new List<Purchase>();
-
         Console.Write("Vendor Name: ");
         string vendorName = Console.ReadLine();
 
@@ -38,7 +37,7 @@ class Program
                 totalKilograms += kilograms;
 
                 // Append the input details to a StringBuilder
-                inputDetails.AppendLine($"Timbang: {kilograms}, Price: {pricePerKilo}, Amount: {amount}");
+                inputDetails.AppendLine($"Timbang: {kilograms} | Price: {pricePerKilo} | Amount: {amount}");
             }
 
             purchases.Add(new Purchase
@@ -75,11 +74,3 @@ class Program
     }
 }
 
-class Purchase
-{
-    public string VendorName { get; set; }
-    public string ProductName { get; set; }
-    public double TotalAmount { get; set; }
-    public double TotalKilograms { get; set; }
-    public string InputDetails { get; set; }
-}
